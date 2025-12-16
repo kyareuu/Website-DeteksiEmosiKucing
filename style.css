@@ -1,0 +1,142 @@
+/* style.css */
+/* Tema warna lembut dengan nuansa biru pastel dan putih */
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: linear-gradient(135deg, #dceefb, #f9fbfd);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  background: #fff;
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+  color: #1e88e5;
+  text-align: center;
+}
+
+h1::after, h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #1e88e5;
+  margin: 10px auto 20px;
+  border-radius: 3px;
+}
+
+form {
+  margin-top: 15px;
+}
+
+label {
+  display: block;
+  background: #f0f7ff;
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+label:hover {
+  background: #e1effe;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button {
+  background: #1e88e5;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1565c0;
+}
+
+a {
+  color: #1e88e5;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Tabel hasil & riwayat */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #1e88e5;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f5f9ff;
+}
+
+tr:hover {
+  background: #e3f2fd;
+}
+
+/* Kotak hasil akhir */
+.result-box {
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  background: #e3f2fd;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #0d47a1;
+  margin-top: 20px;
+}
+
+.btn-group {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-group a {
+  display: inline-block;
+  background: #64b5f6;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 6px;
+}
+
+.btn-group a:hover {
+  background: #42a5f5;
+}
